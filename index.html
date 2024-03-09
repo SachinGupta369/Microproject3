@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Calculator</title>
+
+</head>
+<body>
+    <!-- Main start from here -->
+    <div class="main">
+
+        <!-- display start from here -->
+        <div class="display">
+            <input id="show" type="text" placeholder="0" readonly>
+        </div>
+        <!-- display end from here -->
+
+        <!-- pad start from here -->
+        <div class="pad">
+
+            <div class="row">
+                <button onclick="addToDisplay('7')">7</button>
+                <button onclick="addToDisplay('8')">8</button>
+                <button onclick="addToDisplay('9')">9</button>
+                <button id="del" onclick="dee()">DEL</button>
+            </div>
+            <div class="row">
+                <button onclick="addToDisplay('4')">4</button>
+                <button onclick="addToDisplay('5')">5</button>
+                <button onclick="addToDisplay('6')">6</button>
+                <button onclick="addToDisplay('+')">+</button>
+            </div>
+            <div class="row">
+                <button onclick="addToDisplay('1')">1</button>
+                <button onclick="addToDisplay('2')">2</button>
+                <button onclick="addToDisplay('3')">3</button>
+                <button onclick="addToDisplay('-')">-</button>
+            </div>
+            <div class="row">
+                <button onclick="addToDisplay('.')">.</button>
+                <button onclick="addToDisplay('0')">0</button>
+                <button onclick="addToDisplay('/')">/</button>
+                <button onclick="addToDisplay('*')">x</button>
+            </div>
+            <div class="row">
+                <button id="reset" onclick="reset()">RESET</button>
+                <button id="equal" onclick="answer()">=</button>
+            </div>
+        </div>
+        <!-- pad end from here -->
+    </div>
+    <!-- main end from here -->
+
+    <script src="index.js"></script>
+</body>
+</html>
