@@ -83,3 +83,74 @@ button{
     color: #ffffff;
     font-size: 1.2rem;
 }
+
+@media  screen and (max-width: 999px) {
+   
+    .display{
+        margin-top: 90px;
+        background-color: #181F32;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        border-radius: 10px;
+    }
+
+    #show{
+        text-align: right;
+        height: 100px;
+        width: 320px;
+        padding: 10px;
+        font-size: 57px;
+        background-color: #181F32;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+        margin-right: 90px;
+    }
+
+    .pad{
+        margin-top: 15px;
+        width: 320px;
+        height: 389px;
+        padding: 15px;
+        background-color: #252D44;
+        border-radius: 10px;
+        font-family: 'inter',sans-serif;
+    }
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button{
+        width: 40%;
+        height: 50px;
+        margin: 10px;
+        border-radius:10px ;
+        border: none;
+        font-family: 'inter',sans-serif;
+        font-weight: 800;
+        font-size: 1.4rem;
+        color: #3b4664;
+    }
+    
+    #reset{
+        width: 50%;
+        background-color: #647299;
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+    
+    #equal{
+        width: 50%;
+        background-color: #D13F30;
+        color: #ffffff;
+    }
+    
+    #del{
+        background-color: #647299;
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+}
